@@ -10,7 +10,7 @@ const dishes = [
   { name: "Carne braseada", detail: "Puré de boniato · Cebollas dulces", category: "Proteicas", price: "$7.400", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85" },
   { name: "Pasta de la huerta", detail: "Tomates asados · Albahaca · Ricota", category: "Vegetarianas", price: "$6.300", image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85" },
 ];
-const whatsapp = "https://wa.me/5491155550198?text=Hola%20Viandas%20Florida%2C%20quiero%20hacer%20un%20pedido";
+const whatsapp = "https://wa.me/5491128386926?text=Hola%20Viandas%20Florida%2C%20quiero%20hacer%20un%20pedido";
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("Todos");
