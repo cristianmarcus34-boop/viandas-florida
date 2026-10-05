@@ -29,3 +29,10 @@ El bucket público `dish-images` y sus políticas se crean con la migración. So
 - Los menús vencidos dejan de mostrarse automáticamente; se pueden archivar desde el panel.
 
 Mientras no se configuren Supabase, el menú público usa una carta de muestra local claramente identificada: las fotos, los platos y los precios son ilustrativos, y los mensajes de WhatsApp solicitan confirmar menú, valores y disponibilidad. El panel de administración sigue requiriendo conexión a Supabase y no guarda cambios localmente. Al configurar Supabase, la carta pasa automáticamente a leer el menú publicado desde la base.
+
+## SEO y publicación
+
+- El sitio publica `https://viandas-florida.vercel.app/robots.txt` y `https://viandas-florida.vercel.app/sitemap.xml`; `/admin` queda fuera del rastreo.
+- La portada incluye canonical, Open Graph, Twitter Cards y datos estructurados `FoodEstablishment` con el teléfono y la dirección informados.
+- Tras desplegar los cambios y confirmar que la URL es accesible, verificá el dominio en Google Search Console, enviá `https://viandas-florida.vercel.app/sitemap.xml` y solicitá la indexación de la portada.
+- No se publican horarios ni zonas de entrega en los datos estructurados porque todavía no están confirmados. La carta visible es de muestra y sus platos, fotos y precios no son datos comerciales definitivos.
